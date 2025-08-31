@@ -1,0 +1,29 @@
+# .gitignore for backend
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.DS_Store
+*.sqlite3
+
+# .gitignore for frontend
+node_modules/
+build/
+dist/
+.env
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+
+# General
+*.log
+*.swp
+*.swo
+.idea/
+.vscode/
+*.bak
+*.tmp
